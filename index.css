@@ -1,5 +1,6 @@
 :root{
     view-transition-name: root;
+    margin: 5px;
 }
 html{
     display: block;
