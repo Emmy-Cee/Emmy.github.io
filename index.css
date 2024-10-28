@@ -1,60 +1,59 @@
-:root{
-    view-transition-name: root;
+:root {
+    /* Removed view-transition-name as it is not widely supported */
     margin: 5px;
 }
-html{
+
+html {
     display: block;
 }
-body{
+
+body {
     display: block;
     margin: 8px;
 }
-h1{
+
+h1 {
     background-color: black;
     color: burlywood;
     font-style: italic;
 }
-    /* display: block;
-    text-decoration: none;
-    background-color: white;
-    border: 1px solid #808080;
-    margin-bottom: 1px;
-    width: 300px;
-    list-style: none;
-} */
-.link{
-  /* padding-right: 10%; */
-  padding: 5%;
-  margin-bottom: 0 0 0.5% 0;
-  border: 4px double #deb887;
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  color: #0a0a0a;
-  /* position: relative; */
-  /* clear: left; */
+
+.link {
+    padding: 5%;
+    margin-bottom: 0 0 0.5% 0;
+    border: 4px double #deb887;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: #0a0a0a;
 }
-.link li:nth-child(7):hover{
+
+.link li:nth-child(7):hover {
     color: gray;
     border: 3px solid black;
     margin: 1px 0 1px 0;
     width: 300px;
 }
-a{
+
+a {
     color: #0000ff;
 }
-a:hover, a:active{
+
+a:hover, a:active {
     text-decoration: none;
     color: #deb887; 
     cursor: pointer;
 }
-ul{
+
+ul {
     list-style-type: circle;
 }
-.text{
+
+.text {
     margin-top: 2% 0 0 0;
 }
-#Free_Icons{
+
+#Free_Icons {
     font-weight: 900;
 }
